@@ -25,7 +25,7 @@ spec:
         app: ctse-lab10
     spec:
       containers:
-      - image: kethakaf/ctse-lab10-2022:9d9de0c0c41db8039c8df8dbb04c01d66d3f011c
+      - image: kethakaf/ctse-lab10-2022:{{tag}}
         imagePullPolicy: Always
         name: ctse-lab10-2022
         resources: {}
